@@ -45,6 +45,20 @@ jobs:
         env:
           BASE_BRANCH: ${{ github.base_ref }}
 
+      - name: Preview shared infrastructure
+        shell: bash
+        run: |
+          pushd '../infrastructure'
+          yarn install
+          yarn lint
+          pulumi preview --stack signalco/shared
+          popd
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
       - name: Preview infrastructure
         shell: bash
         run: |
