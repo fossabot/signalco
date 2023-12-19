@@ -42,6 +42,7 @@ Please see our [contributing.md](/CONTRIBUTING.md).
 More info on development can be found in [Development](/DEVELOPMENT.md) document.
 
 ![Alt](https://repobeats.axiom.co/api/embed/d033729632144af008d06e42940bb9c689fb339a.svg "Repobeats analytics image")
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsignalco-io%2Fsignalco.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsignalco-io%2Fsignalco?ref=badge_shield)
 
 ## Related
 
@@ -52,6 +53,9 @@ More info on development can be found in [Development](/DEVELOPMENT.md) document
 ## License
 
 [GNU General Public License v3.0](LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsignalco-io%2Fsignalco.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsignalco-io%2Fsignalco?ref=badge_large)
 
 ## Sponsors ✨
 
